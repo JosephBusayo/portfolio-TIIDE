@@ -94,12 +94,12 @@ header{
 .brief{
 	color: floralwhite;
 	text-transform: uppercase;
-	font-size: 2vw;
+	font-size: 3vw;
 }
 
 .full-name{
 	font-family: "Titillium web";
-	font-size: 4vw;
+	font-size: 5vw;
 	color: floralwhite;
 	margin: 10px 0;
 }
@@ -148,7 +148,7 @@ main{
 }
 
 .section h2{
-	font-size: 2vw;
+	font-size: 4vw;
 	font-weight: bold;
 	color: rgba(51, 153, 255, 1);
 	margin-bottom: 10px 0;
