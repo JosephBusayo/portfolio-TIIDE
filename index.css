@@ -87,21 +87,21 @@ header{
 }
 
 .profile-image{
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
 }
 
 .brief{
 	color: floralwhite;
 	text-transform: uppercase;
-	font-size: 2vw;
+	font-size: 2.5vw;
 	font-family: serif;
 }
 
 .full-name{
 	font-family: "Titillium web";
-	font-size: 4vw;
+	font-size: 4.5vw;
 	color: floralwhite;
 	margin: 10px 0;
 }
@@ -151,7 +151,7 @@ main{
 }
 
 .section h2{
-	font-size: 2.5vw;
+	font-size: 3vw;
 	font-weight: bold;
 	color: rgba(51, 153, 255, 1);
 	margin-bottom: 10px 0;
@@ -301,7 +301,7 @@ main{
 	border: 1px solid teal;
 	border-radius: 5px;
 	padding: 10px;
-	width: 400px;
+	width: 50vw;
 	margin-bottom: 10px;
 	font-size: 14px;
 }
@@ -310,8 +310,8 @@ main{
 	border: 1px solid teal;
 	border-radius: 5px;
 	padding: 10px;
-	width: 400px;
-	height: 350px;
+	width: 50vw;
+	height: 300px;
 	resize: none;
 	margin-bottom: 10px;
 }
