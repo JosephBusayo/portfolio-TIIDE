@@ -92,14 +92,15 @@ header{
 }
 
 .brief{
-	color: white;
+	color: floralwhite;
 	text-transform: uppercase;
+	font-size: 2vw;
 }
 
 .full-name{
 	font-family: "Titillium web";
-	font-size: 3vw;
-	color: white;
+	font-size: 4vw;
+	color: floralwhite;
 	margin: 10px 0;
 }
 
