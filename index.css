@@ -18,7 +18,7 @@ header{
 	background: linear-gradient(to bottom, rgba(51, 153, 255, 0.3) 30%, rgba(51, 153, 255, 0.6) 60%);
 	background-size: cover;
 	background-position: 50%;
-	height: 80vh;
+	height: 90vh;
 	position: relative;
 }
 
@@ -26,7 +26,7 @@ header{
 	background-color: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	top: 0;
-	height: 80vh;
+	height: 90vh;
 	width: 100%;
 } 
 
@@ -83,23 +83,25 @@ header{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
 }
 
 .profile-image{
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	border-radius: 50%;
 }
 
 .brief{
 	color: floralwhite;
 	text-transform: uppercase;
-	font-size: 3vw;
+	font-size: 2vw;
+	font-family: serif;
 }
 
 .full-name{
 	font-family: "Titillium web";
-	font-size: 5vw;
+	font-size: 4vw;
 	color: floralwhite;
 	margin: 10px 0;
 }
@@ -129,6 +131,7 @@ header{
 	margin: 10px;
 	letter-spacing: 1px;
 	cursor: pointer;
+	transition: 0.5s;
 }
 
 .btn:hover{
@@ -148,7 +151,7 @@ main{
 }
 
 .section h2{
-	font-size: 4vw;
+	font-size: 2.5vw;
 	font-weight: bold;
 	color: rgba(51, 153, 255, 1);
 	margin-bottom: 10px 0;
@@ -276,4 +279,62 @@ main{
 .stack-progress{
 	color: teal;
 	border-radius: 100px;
+}
+
+
+/* CONTACT ME FORM SECTION */
+
+.form-section form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.form-group label{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.form-group input{
+	border: 1px solid teal;
+	border-radius: 5px;
+	padding: 10px;
+	width: 400px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.form-group textarea{
+	border: 1px solid teal;
+	border-radius: 5px;
+	padding: 10px;
+	width: 400px;
+	height: 350px;
+	resize: none;
+	margin-bottom: 10px;
+}
+
+
+.social-account-wrapper{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	gap:  40px;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+.social-account-wrapper svg{
+	width: 40px;
+	height: 40px;
+	fill: teal;
+}
+
+.social-account-wrapper svg:hover{
+	fill: blue;
+	cursor: pointer;
+	position: relative;
+	bottom: 10px;
 }
