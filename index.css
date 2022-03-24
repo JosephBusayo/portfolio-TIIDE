@@ -91,6 +91,11 @@ header{
 	border-radius: 50%;
 }
 
+.brief{
+	color: white;
+	text-transform: uppercase;
+}
+
 .full-name{
 	font-family: "Titillium web";
 	font-size: 40px;
